@@ -8,7 +8,7 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/mrosales/emoji-go"
+	"github.com/hoshii-ai/emoji-go"
 	"github.com/spf13/cobra"
 )
 

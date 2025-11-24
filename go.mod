@@ -1,4 +1,4 @@
-module github.com/mrosales/emoji-go
+module github.com/hoshii-ai/emoji-go
 
 go 1.16
 

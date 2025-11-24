@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/mrosales/emoji-go/cmd/emojigen/internal/importer"
+	"github.com/hoshii-ai/emoji-go/cmd/emojigen/internal/importer"
 )
 
 func main() {

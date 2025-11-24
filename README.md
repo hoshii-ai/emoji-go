@@ -24,7 +24,7 @@ See the [godoc](godoc) for more information.
 Install the CLI with `go get` outside a go module.
 
 ```shell
-go get github.com/mrosales/emoji-go/cmd/emoji
+go get github.com/hoshii-ai/emoji-go/cmd/emoji
 ```
 
 You can look up an emoji symbol directly
@@ -77,9 +77,9 @@ must be updated to support new emoji versions.
 [emoji-jsdelivr]: https://www.jsdelivr.com/package/npm/emoji-datasource-apple
 [lithammer-fuzzysearch]: https://github.com/lithammer/fuzzysearch
 [unicode-emoji-14]: https://unicode.org/emoji/charts-14.0/emoji-released.html
-[goreport]: https://goreportcard.com/report/github.com/mrosales/emoji-go
-[goreport-badge]: https://goreportcard.com/badge/github.com/mrosales/emoji-go?style=flat-square
-[godoc]: https://pkg.go.dev/github.com/mrosales/emoji-go
+[goreport]: https://goreportcard.com/report/github.com/hoshii-ai/emoji-go
+[goreport-badge]: https://goreportcard.com/badge/github.com/hoshii-ai/emoji-go?style=flat-square
+[godoc]: https://pkg.go.dev/github.com/hoshii-ai/emoji-go
 [godoc-badge]: https://img.shields.io/badge/godoc-reference-blue?style=flat-square
 [license]: LICENSE.txt
-[license-badge]: https://img.shields.io/github/license/mrosales/emoji-go?style=flat-square
+[license-badge]: https://img.shields.io/github/license/hoshii-ai/emoji-go?style=flat-square
