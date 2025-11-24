@@ -1906,3 +1906,11 @@ var All = []Info {
 	{ "congratulations", "Symbols", "", []string{ "congratulations" }, ImageData{ "3297-fe0f", "㊗️", 60, 56, "0.6", map[Platform]bool{ PlatformApple: true, PlatformGoogle: true, PlatformTwitter: true, PlatformFacebook: true }, "", "" }, nil },
 	{ "secret", "Symbols", "", []string{ "secret" }, ImageData{ "3299-fe0f", "㊙️", 60, 57, "0.6", map[Platform]bool{ PlatformApple: true, PlatformGoogle: true, PlatformTwitter: true, PlatformFacebook: true }, "", "" }, nil },
 }
+
+var AllByCharacter map[string]Info
+
+func init() {
+	for _, info := range All {
+		AllByCharacter[info.Character] = info
+	}
+}
