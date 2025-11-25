@@ -1910,6 +1910,7 @@ var All = []Info {
 var AllByCharacter map[string]Info
 
 func init() {
+	AllByCharacter = make(map[string]Info)
 	for _, info := range All {
 		AllByCharacter[info.Character] = info
 	}
